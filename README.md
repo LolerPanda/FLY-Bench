@@ -1,18 +1,18 @@
-# FLY-Bench: Comprehensive UAV Flight Data Analysis and Model Evaluation Framework
+# FLY-Bench: Comprehensive Fixed-Wing Aircraft Flight Data Analysis and Model Evaluation Framework
 
-FLY-Bench is an open-source toolkit for analyzing, visualizing, and benchmarking UAV (Unmanned Aerial Vehicle) flight data, with a comprehensive evaluation framework for assessing flight prediction models across multiple dimensions.
+FLY-Bench is an open-source toolkit for analyzing, visualizing, and benchmarking Fixed-Wing Aircraft flight data, with a comprehensive evaluation framework for assessing flight prediction models across multiple dimensions.
 
 ## Overview
 
 This project provides two main components:
 
-1. **Flight Data Analysis Toolkit**: Load, process, visualize, and analyze multi-sensor UAV flight data
+1. **Flight Data Analysis Toolkit**: Load, process, visualize, and analyze multi-sensor Fixed-Wing Aircraft flight data
 2. **Model Evaluation Framework**: Comprehensive evaluation system for assessing language models on flight prediction tasks
 
 ## Features
 
 ### Flight Data Analysis
-- Load and process multi-sensor UAV flight data (GPS, IMU, barometer, battery, etc.)
+- Load and process multi-sensor Fixed-Wing Aircraft flight data (GPS, IMU, barometer, battery, etc.)
 - Visualize flight trajectories and sensor signals
 - Compute and benchmark key flight performance metrics
 - Modular and extensible codebase for custom analysis
@@ -26,7 +26,7 @@ This project provides two main components:
 
 ## Dataset
 
-The toolkit is built around the `selected_five_legs_data_v5.jsonl` dataset, which contains rich multi-sensor flight records from real UAV missions. Each record includes:
+The toolkit is built around the `selected_five_legs_data_v5.jsonl` dataset, which contains rich multi-sensor flight records from real Fixed-Wing Aircraft missions. Each record includes:
 
 ### Flight Parameters (19 core fields)
 - **Position**: Latitude (WGS84 deg), Longitude (WGS84 deg), GPS Altitude (WGS84 ft)
@@ -190,7 +190,7 @@ The evaluation framework distinguishes between different types of errors:
 ## Dataset Statistics
 
 The `selected_five_legs_data_v5.jsonl` dataset contains:
-- **709 flight records** from real UAV missions
+- **709 flight records** from real Fixed-Wing Aircraft missions
 - **19 core flight parameters** for evaluation
 - **Additional sensor data** for comprehensive analysis
 - **Geographic coverage**: Various flight patterns and conditions
@@ -199,18 +199,6 @@ The `selected_five_legs_data_v5.jsonl` dataset contains:
 ## License
 
 This project is licensed under the MIT License.
-
-## Citation
-
-If you use this framework in your research, please cite:
-
-```bibtex
-@misc{fly_bench,
-  title={FLY-Bench: Comprehensive UAV Flight Data Analysis and Model Evaluation Framework},
-  year={2025},
-  url={https://github.com/yourusername/FLY-Bench}
-}
-```
 
 ---
 
